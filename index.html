@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		.form-group{
+			margin-bottom: 10px;
+		}
+		h3, h2{
+			display: inline;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="col-sm-12">
+			<h3>Илвл</h3>
+			<h2 id="result-ilvl"></h2>
+			<h3>Цена</h3>
+			<h2 id="result-cost"></h2>
+		</div>
+	</div>
+	<div class="">
+		<div class="col-sm-6">
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Голова</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Шея</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Плечи</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Спина</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Чест</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Брейсы</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Веапон</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Перчатки</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Пояс</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Брюки</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Обувь</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Кольцо1</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Кольцо2</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Тринка1</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Тринка2</label>
+						<input type="text" class="form-control form-control input-ilvl">
+					</div>
+					<div class="col-sm-6">
+						<label>Цена:</label>
+						<input type="text" class="form-control input-cost">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		jQuery(document).ready(function(){
+			$('.input-cost').change(function(){
+				var result = 0;
+				
+				$('.input-cost').each(function(item){
+					result += +$(this).val();
+				});
+
+				console.log(result);
+				$('#result-cost').text(result);
+			});
+
+			$('.input-ilvl').change(function(){
+				var summ = 0,
+					result = 0;
+				
+				$('.input-ilvl').each(function(){
+					summ += +$(this).val();
+				});
+
+				result = Math.round(summ / 15);
+				console.log(result);
+				$('#result-ilvl').text(result);
+			});
+		});
+	</script>
+</body>
+</html>
